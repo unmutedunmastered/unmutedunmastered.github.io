@@ -1,0 +1,28 @@
+.articles-container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.article-image-item{
+    align-self: center;
+    grid-column: 1;
+    place-self:center;
+}
+
+.article-image{
+    width: min(100%,130px);
+    height: min(100%,130px);
+    border-radius: 10%;
+    margin-left: 5%;
+}
+
+.article-title{
+    margin-left: min(5%,10px);
+}
+
+a {
+    font-family: "Myanmar Text", "Noto Sans", sans-serif;
+    color: white;
+    font-size: min(5vw,30pt);
+    text-decoration: none;
+}
