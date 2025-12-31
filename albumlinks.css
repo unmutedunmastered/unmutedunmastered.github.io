@@ -1,0 +1,65 @@
+.album-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr;
+    grid-template-rows: repeat(40,minmax(100px,auto));
+}
+
+.artwork-image-item{
+    align-self: center;
+    grid-column: 1;
+    place-self:center;
+}
+
+.artwork-image{
+    width: min(100%,130px);
+    height: min(100%,130px);
+    border-radius: 10%;
+    margin-left: 5%;
+}
+
+.album-details{
+    margin-left: min(5%,10px);
+    margin-right: min(5%,10px);
+    grid-column:2;
+    font-family: "Myanmar Text", "Noto Sans", sans-serif;
+    color: white;
+    font-size: min(3vw,20pt);
+    font-weight: bold;
+    line-height: 120%;
+}
+
+a {
+    font-family: "Myanmar Text", "Noto Sans", sans-serif;
+    color: white;
+    font-size: min(5vw,30pt);
+    text-decoration: none;
+}
+
+.album-button-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.album-button{
+    text-align: center;
+    border: 3px solid white;
+    background-color: black;
+    color:white;
+    place-self: center;
+
+    width : 90%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    
+
+    padding: auto;
+    margin: auto;
+}
+
+.album-button:hover{
+    background-color: white;
+    color:black;
+}
