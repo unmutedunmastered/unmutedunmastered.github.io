@@ -17,6 +17,8 @@
 }
 
 .article-title{
+    display: flex;
+    align-self: center;
     margin-left: min(5%,10px);
 }
 

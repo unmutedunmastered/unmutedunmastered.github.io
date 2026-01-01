@@ -7,7 +7,6 @@
 .artwork-image-item{
     align-self: center;
     grid-column: 1;
-    place-self:center;
 }
 
 .artwork-image{
@@ -18,6 +17,8 @@
 }
 
 .album-details{
+    display: flex;
+    align-self: center;
     margin-left: min(5%,10px);
     margin-right: min(5%,10px);
     grid-column:2;
