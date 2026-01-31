@@ -14,7 +14,7 @@ h1 {
     width: 80%;
 }
 
-.byline {
+p.byline {
     color: grey;
     font-weight: bold;
 }
